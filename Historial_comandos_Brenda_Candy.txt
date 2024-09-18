@@ -1,0 +1,194 @@
+exit
+sudo apt install vscode
+clear
+pwd
+cd /home/brenda/Descargas
+pwd
+ls
+ls
+sudo apt install ./code_1.92.2-1723660989_amd64.deb
+exit
+cd /var/log
+ls -l
+..
+clear
+sudo useradd yo
+ls
+cd ..
+ls
+sudo groupadd prueba
+sudo usermod -aG prueba yo
+ls
+man usermod
+sudo paswd yo
+sudo passwd yo
+ls
+id yo
+cd ..
+ls
+cd /home
+mkdir yo
+ls
+ls
+clear
+su .
+man su
+q
+exit
+chown yo yo
+ls
+ls -l
+chgrp prueba yo
+ls -l
+exit
+sudo apt install git
+git version
+exit
+git --version
+git config --global user.email "darlenepc321@gmail.com"
+git config --global user.name "BrendaCandy"
+git --global
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cat ~home/.ssh/*.pub
+cat $home/.ssh/*.pub
+ls
+cd..
+cd ..
+ls
+/brenda
+cd /brenda
+cd brenda
+cat $HOME/.ssh/*.pub
+clear
+cat $HOME/.ssh/*.pub
+mkdir repogit
+cd repogit
+git clone [200~https://github.com/BrendaCandy/TP_AYSO.git~
+git clone https://github.com/BrendaCandy/TP_AYSO.git
+cd TP_AYSO/
+ls
+clear
+whoami
+echo "usuario=$(whoami)" > usuario.txt
+cat usuario.txt
+ls -l
+git add.
+git add .
+git commit -m "ADD: archivo"
+git config --global --edit
+git commit -m "ADD: archivo"
+git push
+git push
+clear
+git status
+cat /etc/os-release
+echo "SO: $(cat /etc/os-release)" > sistemaoperativo.txt
+ls -l
+cat sistemaoperativo.txt
+cd ..
+cd ..
+ls
+cd repogit
+cd TP_AYSO/
+ls
+man grep
+grep -i Home_url /etc/os-release
+/proc/cpuinfo
+man /proc
+man proc
+grep "model name" /proc/cpuinfo
+grep "model name" /proc/cpuinfo head -n1
+grep "model name" /proc/cpuinfo | head -n1
+grep "model name" /proc/cpuinfo | head -n1 >> usuario.txt 
+cat usuario.txt 
+git add
+git add .
+git status
+git commit -m "feat: Añadiendo informacion de CPU"
+git push
+git push
+git status
+eco "SO: $(cat /etc/os-release)" > lista_ordenad
+sort
+cd repogit
+cd TP_AYSO/
+man
+grep man
+cd repogit/
+cd TP_AYSO/
+man grep
+passwd
+cd repogit/
+cd TP_AYSO/
+/etc/passwd
+cat /etc/passwd
+man grep
+man sort
+man grep
+grep -F "/sbin/nologin"
+cd repogit/
+cd TP_AYSO/
+grep -F "/sbin/nologin" /etc/passwd
+man grep
+grep -F "/sbin/nologin" /etc/passwd -v
+grep /etc/passwd
+cd repogit/TP_AYSO/
+cat /etc/passwd
+man sort
+man sort
+grep -F "/sbin/nologin" /etc/passwd -v | sort -k7
+man sort
+grep -F "/sbin/nologin" /etc/passwd -v | sort -t:-k7
+
+grep -F "/sbin/nologin" /etc/passwd -v 
+grep -F "/sbin/nologin" /etc/passwd -v | sort -t:-k7 | head -n10
+grep -F "/sbin/nologin" /etc/passwd -v | sort -t: -k7 | head -n10
+echo "Lista ordenada: $(grep -F "/sbin/nologin" /etc/passwd -v | sort -t: -k7 | head -n10)" > lista_ordenada.txt
+ls -l
+exit
+cd repogit/TP_AYSO/
+ls
+cd lista_ordenad
+cd ..
+TP_AYSO/
+cd TP_AYSO/
+ls -l
+rm lista_ordenad
+ls
+ls
+ ls -l
+rm 'sort via a key'
+ls
+cat lista_ordenada.txt 
+git add .
+git status
+git commit -m "ADD: Listado de usuarios ordenada"
+git push
+tpcdump
+sudo tcpdump
+sudo tcpdump
+man tcdump
+man tcpdump
+tcpdump
+echo "tcpdump: " > comando_dump_net
+echo "sudo tcpdump" >> comando_dump_net 
+cat comando_dump_net 
+git add .
+git status
+git commit -m "ADD: Comando para Capturar y analizar el trafico de red"
+cat <<  EOF >> README.md 
+Alumna: Brenda Candy
+Division: 211
+Turno: Tarde
+EOF
+
+cat README.md 
+git commit README.md  "feat: Se agregaron datos"
+git status
+git add .
+git status
+git commit -m "feat: Se agregaron datos"
+git push
+./history -a
+history -a
