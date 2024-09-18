@@ -1,0 +1,8 @@
+Lista ordenada: brenda:x:1000:1000:Brenda,,,:/home/brenda:/bin/bash
+root:x:0:0:root:/root:/bin/bash
+Debian-gdm:x:113:122:Gnome Display Manager:/var/lib/gdm3:/bin/false
+gnome-initial-setup:x:112:65534::/run/gnome-initial-setup/:/bin/false
+speech-dispatcher:x:106:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+tss:x:100:107:TPM software stack,,,:/var/lib/tpm:/bin/false
+yo:x:1001:1001::/home/yo:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
